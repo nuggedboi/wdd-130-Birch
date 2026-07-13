@@ -1,1 +1,60 @@
-body {}
+nav{
+    display: flex;
+    background-color: #71B6DB;
+    max-height: 100px;
+    justify-content: space-evenly;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #E4F3FA;
+}
+
+td{
+    border: 1px solid;
+    border-color: black;
+    padding: 5px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+p.tip {
+    color: #2F5496;
+}
+
+img.navImg{
+    width: 125px;
+    height: 100%;
+    justify-self: flex-start;
+}
+
+footer {
+    background-color: #71B6DB;
+    display: flex;
+}
+
+.botList{
+    display: flex;
+    justify-content: center;
+}
+
+.mission{
+    background-image: url(/webDev/personalSite/images/hero_img.jpg);
+    padding: 180px;
+}
+
+main.tips{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 15px;
+    align-items: center;
+}
+
+main.history{
+    display: grid;
+}
